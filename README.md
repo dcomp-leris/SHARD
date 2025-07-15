@@ -1,18 +1,16 @@
-# *Paper title*
+# *SHARD: A Resource-aware Partitioning Framework for Distributed Inference on Heterogeneous Devices*
 
-by *authors*
+by *Washington R. D. Silva, Luciano S. Fraga, Kleber V. Cardoso, Fábio L. Verdi, and Andrew Williams*
 
-> Fill out the sections below with the information for your paper.
+# Purpose
 
-This paper has been submitted for publication in *Journal*.
+This repository hosts the implementations described in the paper *"SHARD: A Resource-aware Partitioning Framework for Distributed Inference on Heterogeneous Devices"*, which has been submitted for publication in *IEEE Networking Letters*. 
 
-> Brief description of what the paper is about (the key points).
-> You can include a main paper figure here also.  
-*Caption for the example figure with the main results.*
+The repository is currently under construction. Source code and supplementary materials will be made available soon.
 
 ## Abstract
 
-> Paper abstract
+Emerging augmented reality applications demand substantial computing resources to support object detection within stringent latency constraints. Deploying these applications on heterogeneous edge platforms requires partitioning workloads across available devices. However, assessing feasibility prior to deployment remains challenging. Hence, we present SHARD, a resource-aware framework that converts object detection models into Directed Acyclic Graphs, profiles node performance using analytical modeling, and formulates a constrained optimization problem for platform-agnostic distributed inference. SHARD easily supports different Deep Learning models and different hardware specifications, making it a powerful tool for evaluating inference feasibility on heterogeneous platforms.
 
 ## Code implementation and references
 
