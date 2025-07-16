@@ -1,6 +1,6 @@
 # *SHARD: A Resource-aware Partitioning Framework for Distributed Inference on Heterogeneous Devices*
 
-by *Washington R. D. Silva, Luciano S. Fraga, Kleber V. Cardoso, Fábio L. Verdi, and Andrew Williams*
+by *Washington R. D. Silva, Luciano S. Fraga, Andrew Williams, Kleber V. Cardoso, and Fábio L. Verdi*
 
 # Purpose
 
