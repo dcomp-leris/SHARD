@@ -6,7 +6,6 @@ This directory contains the Jupyter Notebook used to generate the experimental r
 
 The notebook is designed to be a self-contained and executable representation of our methodology. It allows for a complete reproduction of our findings and provides a transparent view of our implementation.
 
----
 
 ### How to Use 🚀
 
@@ -24,7 +23,6 @@ You can run the notebook in two ways, depending on your goal:
 1.  **Step-by-Step Analysis:** For a thorough understanding of our methodology, we recommend running the notebook **cell by cell**. Each cell corresponds to a logical step in our framework (e.g., model profiling, constraint formulation) and is commented to link back to the descriptions in the paper.
 2.  **Full Reproduction:** To generate all results and figures from scratch, you can use the **"Run All"** command in Jupyter (`Cell > Run All`).
 
------
 
 ### Notebook Structure 🔬
 
