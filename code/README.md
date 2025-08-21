@@ -1,38 +1,38 @@
-# Source code for producing the results and figures
+## Source code for reproducing results
 
-> This should be a description of all codes used.
-> The following is example text you can use, taken from [this template](https://github.com/pinga-lab/paper-template)
+### Overview 📝
 
-The code is divided between Python modules in `mypackage` and Jupyter notebooks
-in `notebooks`. The modules implement the methodology and code that is reused
-in different applications. This code is tested using `pytest` with the test
-code in `tests`. The notebooks perform the data analysis and processing and
-generate the figures for the paper.
+This directory contains the Jupyter Notebook used to generate the experimental results, figures, and analyses presented in our paper, "SHARD: A Resource-aware Partitioning Framework for Distributed Inference on Heterogeneous Devices"
 
-The `Makefile` automates all processes related to executing code.
-Run the following to perform all actions from building the software to
-generating the final figures:
+The notebook is designed to be a self-contained and executable representation of our methodology. It allows for a complete reproduction of our findings and provides a transparent view of our implementation.
 
-    make all
+-----
 
+### How to Use 🚀
 
-## Analysis set up
+The notebook can be run in various environments, including locally or on cloud platforms like Google Colab and Kaggle.
 
-> You can use this section to explain how to set up the experiment. In the Reed
-> group we often submit 'jobs' (i.e., sets of model runs), which should be
-> explained here.
+#### Environment
 
+  * **Local Execution:** Simply launch a Jupyter session in this directory and open the `.ipynb` file.
+  * **Cloud Execution (Google Colab/Kaggle):** The initial cells of the notebook include commands to install the required dependencies in the cloud environment. You can run these first to set everything up.
 
-## Generating results and figures
+#### Execution Modes
 
-> You can use this area to explain how to process the outputs to generate the
-> results and figures used in the paper. A makefile that automates the process
-> would be ideal here. You can use text like the following:
+You can run the notebook in two ways, depending on your goal:
 
-* Generate all results files specified in the `Makefile`:
+1.  **Step-by-Step Analysis:** For a thorough understanding of our methodology, we recommend running the notebook **cell by cell**. Each cell corresponds to a logical step in our framework (e.g., model profiling, constraint formulation) and is commented to link back to the descriptions in the paper.
+2.  **Full Reproduction:** To generate all results and figures from scratch, you can use the **"Run All"** command in Jupyter (`Cell > Run All`).
 
-        make results
+-----
 
-* Create all figure files specified in the `Makefile`:
+### Notebook Structure 🔬
 
-        make figures
+The notebook is organized to mirror the workflow described in the paper:
+
+1.  **Setup and Initialization:** Imports necessary libraries and handles environment setup for cloud platforms.
+2.  **Model Loading and IR conversion:** Loads the YOLO model and converts it to an ONNX DAG.
+3.  **Device and Performance Modeling:** Defines the specifications for the target hardware (GPU, DPU, FPGA), estimates the FLOPs for each node in the computational graph, and calculates the per-node latency and energy estimates.
+4.  **Optimization Problem Formulation:** Constructs the Mixed-Integer Linear Programming (MILP) model, defining the objective function and all necessary constraints (precedence, non-overlap, etc.), and the heuristics proposed to solve this optimization problem more efficiently.
+5.  **Solving and Analysis:** Executes the solver and our heuristics to find the optimal partitions and analyzes the output.
+6.  **Figure Generation:** Contains the code to plot the graphs presented in the evaluation section of the paper.
