@@ -6,7 +6,7 @@ This directory contains the Jupyter Notebook used to generate the experimental r
 
 The notebook is designed to be a self-contained and executable representation of our methodology. It allows for a complete reproduction of our findings and provides a transparent view of our implementation.
 
------
+---
 
 ### How to Use 🚀
 
