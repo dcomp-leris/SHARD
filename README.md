@@ -30,28 +30,9 @@ or [download a zip archive](https://github.com/dcomp-leris/SHARD/archive/master.
 
 ## Dependencies
 
-To reproduce our results, ensure you have Python 3.11.11 or higher installed. to run the code.
-Additionally, you will need the following packages: onnx, onnxruntime, ultralytics, numpy, ortools,
-matplotlib, and seaborn. 
-
-## Reproducing the results
-
-> Here you should include all information necessary to reproduce your results.
-> Ideally, you'd set up a makefile that automates as much as possible, but make
-> sure to provide clear step-by-step instructions for everything.
-> The following can be used as example of replicating Python code.
-
-Activate the conda environment:
-
-    source activate ENVIRONMENT_NAME
-
-or, on Windows:
-
-    activate ENVIRONMENT_NAME
-
-To build and test the software, produce all results and figures, follow these steps:
-
-> Add steps here
+To reproduce our results, ensure you have Python 3.11.x or higher installed. Additionally, 
+you will need the following packages: `onnx`, `onnxruntime`, `ultralytics`, `numpy`, `ortools`,
+`matplotlib`, and `seaborn`. 
 
 
 ## License
@@ -59,7 +40,3 @@ To build and test the software, produce all results and figures, follow these st
 All source code is made available under a BSD 3-clause license. You can freely
 use and modify the code, without warranty, so long as you provide attribution
 to the authors.
-
-The manuscript text is not open source. The authors reserve the rights to the
-article content, which is currently submitted for publication in the
-JOURNAL NAME.
