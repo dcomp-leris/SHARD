@@ -3,7 +3,9 @@
 by *Washington R. D. Silva<sup>1</sup>, Luciano S. Fraga<sup>2</sup>, Andrew Williams<sup>3</sup>, Kleber V. Cardoso<sup>2</sup>, and Fábio L. Verdi<sup>1</sup>*
 
 <sup>1 </sup>Department of Computer Science, Federal University of São Carlos - Sorocaba Campus, SP, Brazil
+
 <sup>2 </sup>Informatics Institute, Universidade Federal de Goiás, GO, Brazil
+
 <sup>3 </sup>Ericsson Research, Ericsson, Stockholm, Sweden
 
 contact:  washingtonrds@estudante.ufscar.br
