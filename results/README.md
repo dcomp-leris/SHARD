@@ -4,7 +4,7 @@
 
 This directory contains the primary output file from the experiments described in our paper, "SHARD: Scalable Heterogeneous Assignment for Resource-aware Deployment."
 
-All experimental results, including final partitions, performance metrics, and solver statistics, are consolidated into a single Python pickle file: `yolo11n_solution.pkl`.
+All experimental results, including final partitions, performance metrics, and solver statistics, are consolidated into a single Python pickle file: `yolo11n_solution.pkl`. The plots generated from the data in `yolo11n_solution.pkl`, corresponding to the figures presented in the paper, can be found in the `/plots/` sub-directory.
 
 ### File Description & Data Structure 🔬
 
