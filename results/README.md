@@ -4,7 +4,13 @@
 
 This directory contains the primary output file from the experiments described in our paper, "SHARD: Scalable Heterogeneous Assignment for Resource-aware Deployment."
 
-All experimental results, including final partitions, performance metrics, and solver statistics, are consolidated into a single Python pickle file: `yolo11n_solution.pkl`. The plots generated from the data in `yolo11n_solution.pkl`, corresponding to the figures presented in the paper, can be found in the `/plots/` sub-directory.
+All experimental results, including final partitions, performance metrics, and solver statistics, are consolidated into a single Python pickle file: `yolo11n_solution.pkl`. The plots generated from the data in `yolo11n_solution.pkl`, corresponding to the figures presented in the paper, can be found in the `/plots/` sub-directory. The key figures include:
+
+  * `computing_energy_per_device.pdf`: Compares the energy cost provided by each approach for every device (Figure 3(a) in the paper).
+  * `computing_time_per_device.pdf`: Compares the computation time provided by each approach for every device (Figure 3(b) in the paper).
+  * `flops_computed_per_device.pdf`: Compares the computational load (in FLOPs) allocated to each device by every approach (Figure 3(c) in the paper).
+  * `dag_completion_time.pdf`: Compares the time required to compute all nodes of the DAG on every device for each partitioning strategy (Figure 4 in the paper).
+  * `execution_time_of_each_approach.pdf`: Compares the time required by each approach to find a solution (Figure 5 in the paper).
 
 ### File Description & Data Structure 🔬
 
