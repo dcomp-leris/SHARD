@@ -6,8 +6,6 @@ This directory contains the primary output file from the experiments described i
 
 All experimental results, including final partitions, performance metrics, and solver statistics, are consolidated into a single Python pickle file: `yolo11n_solution.pkl`.
 
------
-
 ### File Description & Data Structure 🔬
 
 The `yolo11n_solution.pkl` file contains a Python dictionary. This dictionary holds the complete results for the different optimization methods and heuristics evaluated in our study.
@@ -44,8 +42,6 @@ For each key, the value is a list containing six elements in the following order
 4.  `end_times` (dict): A dictionary mapping each node index to its scheduled completion time.
 5.  `solution` (dict): The final node-to-device partition mapping.
 6.  `execution_time` (float): The wall-clock time it took for the method itself to run and produce the solution.
-
------
 
 ### How to Reproduce 🔄
 
